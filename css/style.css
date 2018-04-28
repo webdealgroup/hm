@@ -3138,7 +3138,7 @@ header .wrapper {
   color: inherit;
 }
 #preview .wrapper {
-  background-image: url('assets/img/8.jpg');
+  background-image: url('/assets/img/8.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -3164,7 +3164,7 @@ header .wrapper {
   color: #fff;
 }
 #gallery .wrapper {
-  background-image: url('assets/img/w1.jpg');
+  background-image: url('/assets/img/w1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -3236,7 +3236,7 @@ header .wrapper {
 }
 
 footer {
-  background-image: url('assets/img/3.jpg');
+  background-image: url('//wallbox.ru/resize/1920x1080/wallpapers/main/201241/muzhchiny-33161fd68a0d.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
