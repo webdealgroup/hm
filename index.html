@@ -8,7 +8,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="SHORTCUT ICON" type="image/x-icon" href="assets/img/favicon.ico">
+    <!--link rel="SHORTCUT ICON" type="image/x-icon" href="assets/img/favicon.ico"-->
     <title>Прибор Happy Man</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -23,8 +23,8 @@
 
    <!-- site specific styling -->
    <style type="text/css">
-   body { font: 12px "Myriad Pro", "Lucida Grande", sans-serif; text-align: center; padding-top: 5%; }
-   .flowplayer { width: 80%; }
+   
+   .flowplayer { /*width: 80%;*/ }
    </style>
 
    <!-- flowplayer depends on jQuery 1.7.1+ (for now) -->
@@ -92,7 +92,7 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="row">
-              <div class="col-sm-7">
+              <!--div class="col-sm-7">
                 <div id="carousel-top" class="carousel slide">
                   <div class="carousel-inner">
                     <div class="item active" ><img src="assets/img/33.png" alt="First slide">
@@ -109,15 +109,21 @@
                   <span ></span> Абсолютно безопасен!
                 </p>
 
+              </div-->
+
+              <div class="col-sm-7">
+               <div class="flowplayer" data-swf="flowplayer.swf" data-ratio="0.4167" style="background: url(//www.paduiblog.com/wp-content/uploads/2016/12/sad-depressed-man-300x200.jpg) #000 no-repeat center;">
+                  <video>
+                     <source type="video/webm" src="/video/hm2.webm">
+                     <source type="video/mp4" src="/video/hm2.mp4">
+                     <source type="video/ogv" src="/video/hm2.ogg">
+                  </video>
+               </div>
               </div>
+
               <div class="col-sm-5">
                 <!-- форма в шапке страницы -->
                 <form action="order.php" method="post" name="order_form" target="_parent" onsubmit="return EAcheckForm(this);" >
-                  
-
-                  <legend class="text-center text-uppercase">
-                    Получить информацию</br>на почту
-                  </legend>
 
                   <div class="form-group">
                     <label for="" class="sr-only">label</label>
@@ -127,12 +133,7 @@
                   <button type="submit" class="btn btn-creative btn-lg btn-block" return true;"><span>Получить каталог! </span></button> 
 
                 </form>
-                <div class="row mt">
-                  <div class="col-sm-6"><img src="assets/img/g1.png" alt="" class="img-responsive wow bounceInUp">
-                  </div>
-                  <div class="col-sm-6"><img src="assets/img/g2.png" alt="" class="img-responsive wow bounceInUp">
-                  </div>
-                </div>
+
                 <!-- форма в шапке страницы -->
               </div>
             </div>
@@ -623,9 +624,9 @@
     <!-- форма во всплывающем окне звонок конец-->
 
     <link rel="stylesheet" href="yved/style.css">
-    <script src="assets/scripts/script.js"></script>
+    <!--script src="assets/scripts/script.js"></script-->
 
-    <script src="http://shop.copytim.ru/minicamera/yved/script.js"></script>
+    <script src="/yved/script.js"></script>
 
   </body>
 </html>
