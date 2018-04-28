@@ -2914,7 +2914,7 @@ ol.bs3-ol li:before{width:25px;height:25px;background-color:#cc0000;color:white;
 .btn-custom{box-shadow:inset 0px 1px 0px 0px #ff5e4c;background:-webkit-linear-gradient(top, #fe1a00 5%, #981000 100%);background:linear-gradient(to bottom, #fe1a00 5%, #981000 100%);background-color:#fe1a00;border-radius:6px;border:1px solid #ff4732;display:inline-block;cursor:pointer;color:white;font-weight:bold;text-decoration:none;text-shadow:0px 1px 0px #650a00;}
 .btn-custom:hover{background:-webkit-linear-gradient(top, #981000 5%, #fe1a00 100%);background:linear-gradient(to bottom, #981000 5%, #fe1a00 100%);background-color:#fe1a00;color:white;}
 .btn-custom:active, .btn-custom:focus{position:relative;top:1px;color:white;text-shadow:0px px 0px;}
-.btn-creative{background-color:#fe1a00;border-radius:4px;letter-spacing:4px;color:white;font-size:2em;font-family:"Roboto", sans-serif;font-weight:bold;text-shadow:1px 1px 1px #111111;box-shadow:2px 2px 2px #981000;overflow:hidden;position:relative;padding:10px 45px;}
+.btn-creative{background-color:#fe1a00;border-radius:4px;letter-spacing:4px;color:white;font-size:1em;font-family:"Roboto", sans-serif;font-weight:bold;text-shadow:1px 1px 1px #111111;box-shadow:2px 2px 2px #981000;overflow:hidden;position:relative;padding:10px 45px;}
 .btn-creative span{display:inline-block;-webkit-transition:all 0.3s;transition:all 0.3s;-webkit-backface-visibility:hidden;backface-visibility:hidden;}
 .btn-creative:before{font-family:Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua";content:"+ Подарок";position:absolute;height:100%;width:100%;line-height:2;left:0;top:-100%;-webkit-transition:all 0.3s;transition:all 0.3s;}
 .btn-creative:hover{color:white;}
