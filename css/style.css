@@ -3125,9 +3125,9 @@ header h1 b {
   color: #fff;
 }
 header .wrapper {
-  background-image: url('//wallbox.ru/resize/1920x1080/wallpapers/main/201241/muzhchiny-33161fd68a0d.jpg');
+  background-image: url('/bg_old2.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   background-attachment: fixed;
 }
 
