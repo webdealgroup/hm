@@ -2879,7 +2879,7 @@ only screen and (min-device-pixel-ratio:1.5){#fancybox-loading, .fancybox-close,
 .placeholders-dark::-moz-placeholder{color:#2a2a2a !important;}
 .placeholders-dark.placeholder{color:#2a2a2a !important;}
 body{padding-top:50px;}
-section, header, footer{padding:3em 0;position:relative;}
+section, header, footer{padding:1em 0 3em;position:relative;}
 .grey{background-color:whitesmoke;}
 .red{background-color:#cc0000;color:white;}
 .red h2{color:white;}
