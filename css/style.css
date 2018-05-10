@@ -610,7 +610,7 @@ img.animated{padding-right:15px;padding-left:15px;}
 .col-sm-9{width:75%;}
 .col-sm-8{width:55%;}
 .col-sm-7{width:58.33333333%;}
-.col-sm-7 p{font:24px calibri;color:#2ab6ae;font-weight:normal;}
+.col-sm-7 p{font:21px calibri;color:#2ab6ae;font-weight:normal;}
 .col-sm-6{width:50%;}
 .col-sm-61{width:55%;float:left;position:relative;min-height:1px;outline:0px solid #000000;}
 .col-sm-62{width:45%;outline:0px solid #000000;position:relative;min-height:1px;padding-right:15px;padding-left:15px;float:left;}
@@ -1590,7 +1590,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn{height:auto;}
 .navbar-default .navbar-nav > li > a:focus{color:#333;background-color:transparent;}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus{color:#555;background-color:#e7e7e7;}
+.navbar-default .navbar-nav > .active > a:focus{color:#555;background-color:#ffb6ae;}
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus{color:#ccc;background-color:transparent;}
