@@ -3047,7 +3047,7 @@ header form legend{padding-bottom:10px;margin-bottom:20px;}
 .phone{color:#77341d;font-size:1.5em;}
 .navbar{display:none;}
 .navbar ul.nav{font-size:0.8em !important;}
-h1, h2{font-size:1.5em;margin-bottom:2em;}
+h1, h2{font-size:1.5em;margin-bottom:1.5em;}
 h1 b, h2 b{font-size:1.6em;color:#77341d;}
 h2 b{display:block;}
 h2 b:before, h2 b:after{content:" — ";font-weight:normal;}
